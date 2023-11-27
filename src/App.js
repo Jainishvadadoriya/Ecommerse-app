@@ -15,8 +15,8 @@ import Blog from './Component/Blog'
 import Contact from './Component/Contact';
 import Room from './Component/Room';
 
-import 'C:/Rbootstrap/bootsproject/node_modules/slick-carousel/slick/slick-theme.css';
-import 'C:/Rbootstrap/bootsproject/node_modules/slick-carousel/slick/slick.css';
+import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
