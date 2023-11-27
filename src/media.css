@@ -1,0 +1,204 @@
+@media screen and (min-width:992px) {
+
+   .all_room {
+      margin-top: 30px;
+   }
+}
+
+@media screen and (max-width:1199px) {
+
+   .slick-dots {
+      top: 86%;
+   }
+
+
+}
+
+@media screen and (max-width:991px) {
+
+   .logo {
+      position: relative;
+      padding: 28px 0;
+   }
+
+   .navbar-toggler {
+      background: white !important;
+   }
+
+   .navbar-nav {
+      position: absolute;
+      width: 70%;
+      left: 110px;
+      display: none;
+      top: 100%;
+      padding: 0;
+      margin: 0;
+      z-index: 2;
+      list-style: none;
+      background: #fff;
+   }
+
+   .navbar-nav a,
+   .nav-item a {
+      color: #000000;
+      border-top: 1px solid #edece7;
+      display: block;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 600;
+      transition: all .4s ease-out 0s;
+      text-transform: capitalize;
+      padding: 15px 35px !important;
+      font-family: 'Bai Jamjuree', sans-serif;
+   }
+   .dropdown-menu{
+      width: 100% !important;
+   }
+
+   .header_btn {
+      display: none;
+   }
+
+   .acco_title {
+      margin-bottom: 15px;
+   }
+
+   .bg-left::before , .bg-right::before{
+      display: none;
+   }
+   .feature_right_text {
+      background: #f7f7f7;
+      padding: 30px;
+   }
+
+   .footer_about {
+      margin-top: 10px;
+   }
+
+   .video_play {
+      text-align: center;
+      margin-top: 25px;
+   }
+
+   .all_room {
+      margin-top: 10px;
+   }
+
+   /* testi monial */
+   .testi_item .testi_text p {
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   .slick-dots {
+      top: 89%;
+   }
+
+   .testi_img {
+      display: flex;
+      justify-content: center;
+   }
+
+   .testi_text h4,
+   .testi_text span {
+      text-align: center;
+   }
+}
+
+@media screen and (max-width:767px) {
+
+   /* .banner{
+   width: 425px;
+  } */
+   .navbar-nav {
+      left: 60px;
+   }
+
+   .banner_title h1 {
+      font-size: 30px;
+      line-height: 40px;
+   }
+
+   .banner_title h1 span {
+      margin-left: 50px;
+   }
+
+   .video_title h2 {
+      font-size: 35px;
+      letter-spacing: 1px;
+      line-height: 1.2;
+   }
+
+   .acco .col-xl-7 {
+      margin-top: 20px;
+   }
+
+   .acco_img_2 img {
+      width: 250px !important;
+      height: 250px !important;
+   }
+
+   .nav-tabs li:nth-of-type(4),
+   .nav-tabs li:nth-of-type(5) {
+      margin-top: 10px;
+   }
+
+   .testi_item {
+      display: block;
+   }
+   .contact_iframe iframe{
+      height: 450px !important;
+   }
+
+}
+
+@media screen and (max-width:575px) {
+   .acco_title h2 {
+      font-size: 30px;
+      line-height: 1.5;
+   }
+
+   .delux_menu ul li:nth-of-type(3) {
+      margin-top: 10px;
+   }
+
+   .acco_title {
+      margin-bottom: 0;
+   }
+
+   .acco_title a {
+      margin-bottom: 25px;
+   }
+
+   .slick-dots {
+      top: 95%;
+   }
+
+   .testi_area {
+      padding: 30px 30px;
+   }
+
+   .testi_text p {
+      font-size: 15px;
+      line-height: 26px;
+   }
+
+   .blog_box_title h5 {
+      font-size: 16px !important;
+   }
+
+   .blog_date {
+      height: 65px !important;
+   }
+
+   .blog_btn a {
+      margin-top: 15px;
+   }
+
+   .gallery_img {
+      margin-bottom: 20px;
+   }
+   .contact_iframe iframe{
+      height: 400px !important;
+   }
+}
